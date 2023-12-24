@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+
+.nav-left{
+    margin-left: 15%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.nav-right{
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.title{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+   
+}
+.my-portfolio{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+button{
+    color: white;
+    background-color: #17a2b8;
+    width: 100PX;
+    height: 35%;
+    color: white;
+    box-shadow: 5px 5px black;
+    font-size:100%; 
+}
